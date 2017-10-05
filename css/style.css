@@ -1,0 +1,48 @@
+#app
+{
+  text-align: center;
+  margin: auto;
+}
+
+h1
+{
+  text-align: center;
+
+}
+
+.important
+{
+  color: red;
+  font-weight: bold;
+}
+
+.tasks
+{
+  text-align: left;
+  border-radius: 7px;
+  width: 70%;
+  margin: auto;
+  padding: 10px;
+  font-size: 1.5em;
+}
+
+.button
+{
+    margin-left: 20px;
+}
+
+.logout
+{
+    position: relative;
+    margin-top: 300px;
+}
+
+.dark
+{
+    background-color: #CCCCCC;
+}
+
+footer
+{
+    margin-bottom: 0px;
+}
