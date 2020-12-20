@@ -10,11 +10,11 @@ $manager_tache = new ManagerTache($bdd);
 
 //On récupère la tâche
 if(isset($_POST['tache']) && !empty($_POST['tache'])){
-  $tache = new Tache(array(
-            'idUser'       => $id_user,
-			'tache'        => htmlspecialchars($_POST['tache'])
-	));
-	$manager_tache->add($tache);
+    $tache = new Tache(array(
+        'idUser'       => $id_user,
+        'tache'        => htmlspecialchars($_POST['tache'])
+    ));
+    $manager_tache->add($tache);
 }
 
 header('Location: todo.php');

@@ -61,7 +61,7 @@ CREATE TABLE `USERS` (
 --
 
 INSERT INTO `USERS` (`id`, `prenom`, `nom`, `email`, `pass`, `sexe`, `age`, `date_inscription`) VALUES
-(1, 'RÃ©mi', 'RODRIGUES', 'remi_rodrigues@hotmail.com', '$2y$10$iEI/f.w.8.SpkkIZcJ/S..zGroOhcESzOvMPp2nVrm9wVmdlOUqoW', 'm', 31, '2017-05-01 15:42:12');
+(1, 'Smartful', 'TV', 'smartful_tv@worldcompany.com', '$2y$10$iEI/f.w.8.SpkkIZcJ/S..zGroOhcESzOvMPp2nVrm9wVmdlOUqoW', 'm', 31, '2017-05-01 15:42:12');
 
 --
 -- Index pour les tables exportées
